@@ -18,10 +18,10 @@ Die Prüfsumme steht in `SHA256SUMS`.
 
 ## Windows
 
-`Ophardt-Referees-Windows-x64-v1.2-build25.zip` enthält eine eigenständige
-Anwendung für Windows 10/11 (64 Bit). ZIP-Datei entpacken und
-`Ophardt Referees.exe` starten. Python oder eine separate Installation der
-Pakete ist nicht erforderlich.
+`Fencingworldwide-Referees-Windows-x64-v1.3-build26.zip` enthält eine
+eigenständige Anwendung für Windows 10/11 (64 Bit). ZIP-Datei entpacken und
+`Fencingworldwide Referees.exe` starten. Python oder eine separate
+Installation der Pakete ist nicht erforderlich.
 
 Die Prüfsumme steht in `SHA256SUMS`.
 
