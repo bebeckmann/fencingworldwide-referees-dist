@@ -18,7 +18,7 @@ Die Prüfsumme steht in `SHA256SUMS`.
 
 ## Windows
 
-`Fencingworldwide-Referees-Windows-x64-v1.3-build26.zip` enthält eine
+`Fencingworldwide-Referees-Windows-x64-v1.3-build27.zip` enthält eine
 eigenständige Anwendung für Windows 10/11 (64 Bit). ZIP-Datei entpacken und
 `Fencingworldwide Referees.exe` starten. Python oder eine separate
 Installation der Pakete ist nicht erforderlich.
