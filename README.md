@@ -6,7 +6,7 @@ Python-Repositories.
 
 ## macOS
 
-`Ophardt-Referees-macOS-arm64-v1.2-build25.zip` enthält die eigenständige App
+`Ophardt-Referees-macOS-arm64-v1.3-build26.zip` enthält die eigenständige App
 für Apple Silicon ab macOS 13. Eine separate Python-Installation ist nicht
 erforderlich.
 
