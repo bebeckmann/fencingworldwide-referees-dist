@@ -1,26 +1,41 @@
-# Ophardt Referees – portable Builds
+# Fencingworldwide Referees – Builds
 
-Dieses Repository enthält ausschließlich veröffentlichungsfertige portable
-Anwendungen. Quellcode liegt in den getrennten iOS-, Android- und
-Python-Repositories.
+Dieses Repository enthält portable Desktop-Anwendungen und signierte Android-Pakete.
+Die aktuellen Quellstände liegen in den separaten Repositories für
+[Desktop und Push-Server](https://github.com/bebeckmann/fencingworldwide-referees),
+[Android](https://github.com/bebeckmann/fencingworldwide-referees-android) und
+[iOS](https://github.com/bebeckmann/fencingworldwide-referees-ios).
 
-## macOS
+## Aktuelle Pakete
 
-`Ophardt-Referees-macOS-arm64-v1.3-build27.zip` enthält die eigenständige App
-für Apple Silicon ab macOS 13. Eine separate Python-Installation ist nicht
-erforderlich.
+| Plattform | Version / Build | Datei |
+|---|---|---|
+| macOS Apple Silicon | 1.3 / 31 | [ZIP](Fencingworldwide-Referees-macOS-arm64-v1.3-build31.zip) |
+| Android | 1.0 / 12 | [APK](Fencingworldwide-Referees-Android-v1.0-build12.apk), [Play-Store-Bundle](Fencingworldwide-Referees-Android-v1.0-build12.aab) |
+| Windows x64 – älterer Stand | 1.3 / 27 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.3-build27.zip) |
 
-Nach dem Entpacken kann macOS beim ersten Start einmalig Rechtsklick →
-„Öffnen“ verlangen, weil der Build lokal signiert, aber nicht durch Apple
-notarisiert ist.
+Der macOS-Build 31 enthält die Korrekturen für Ergebnisbestätigung je Fechter
+und die KO-Übertragung anhand der tatsächlichen Touch-Formularfelder.
+Android-Build 12 entspricht dem aktuellen Android-Quellstand.
+Der Windows-Build 27 enthält diese neueren Korrekturen noch nicht;
+ein neuer Windows-Build liegt nicht vor. Ältere Pakete bleiben zur Nachvollziehbarkeit erhalten.
 
-Die Prüfsumme steht in `SHA256SUMS`.
+## Installation
 
-## Windows
+macOS: ZIP entpacken und die App auf Apple Silicon ab macOS 13 starten.
+Python muss nicht separat installiert werden. Beim ersten Start kann
+Rechtsklick → „Öffnen“ erforderlich sein, da die App lokal signiert,
+aber nicht durch Apple notarisiert ist.
 
-`Fencingworldwide-Referees-Windows-x64-v1.3-build27.zip` enthält eine
-eigenständige Anwendung für Windows 10/11 (64 Bit). ZIP-Datei entpacken und
-`Fencingworldwide Referees.exe` starten. Python oder eine separate
-Installation der Pakete ist nicht erforderlich.
+Android: Die APK als Update installieren, damit lokale App-Daten erhalten bleiben.
+Die AAB ist für den Upload in die Play Console bestimmt und wird nicht direkt installiert.
+iOS wird über Xcode beziehungsweise TestFlight verteilt; hier liegt kein IPA-Paket.
 
-Die Prüfsumme steht in `SHA256SUMS`.
+Windows: Das ältere ZIP entpacken und `Fencingworldwide Referees.exe` starten.
+
+## Download und Prüfsummen
+
+Die großen Pakete werden über Git LFS gespeichert. Beim Klonen `git lfs install`
+und anschließend `git lfs pull` ausführen. Auf GitHub die jeweilige Datei öffnen
+und über „Download raw file“ herunterladen.
+Die SHA-256-Prüfsummen stehen in [SHA256SUMS](SHA256SUMS).
