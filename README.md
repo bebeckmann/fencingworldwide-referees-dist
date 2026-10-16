@@ -12,7 +12,7 @@ Die aktuellen Quellstände liegen in den separaten Repositories für
 |---|---|---|
 | macOS Apple Silicon | 1.3 / 31 | [ZIP](Fencingworldwide-Referees-macOS-arm64-v1.3-build31.zip) |
 | Android | 1.0 / 12 | [APK](Fencingworldwide-Referees-Android-v1.0-build12.apk), [Play-Store-Bundle](Fencingworldwide-Referees-Android-v1.0-build12.aab) |
-| Windows x64 | 1.3 / 31 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.3-build31.zip) |
+| Windows x64 | 1.3 / 32 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.3-build32.zip) |
 
 Der macOS-Build 31 enthält die Korrekturen für Ergebnisbestätigung je Fechter
 und die KO-Übertragung anhand der tatsächlichen Touch-Formularfelder.
@@ -20,6 +20,9 @@ Android-Build 12 entspricht dem aktuellen Android-Quellstand.
 Der Windows-Build 31 enthält ebenfalls den aktuellen Desktop-Quellstand mit
 diesen Ergebnis- und KO-Korrekturen. Ältere Pakete bleiben zur
 Nachvollziehbarkeit erhalten.
+Der Windows-Build 32 ergänzt getrennte Hinweise und Logeinträge für abgelehnte
+Anmeldungen und Verbindungsfehler. Die Login-Logdatei liegt unter
+`%APPDATA%\Ophardt Referees\ophardt-referees.log`.
 
 ## Installation
 
