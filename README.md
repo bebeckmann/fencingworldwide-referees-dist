@@ -12,13 +12,14 @@ Die aktuellen Quellstände liegen in den separaten Repositories für
 |---|---|---|
 | macOS Apple Silicon | 1.3 / 31 | [ZIP](Fencingworldwide-Referees-macOS-arm64-v1.3-build31.zip) |
 | Android | 1.0 / 12 | [APK](Fencingworldwide-Referees-Android-v1.0-build12.apk), [Play-Store-Bundle](Fencingworldwide-Referees-Android-v1.0-build12.aab) |
-| Windows x64 – älterer Stand | 1.3 / 27 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.3-build27.zip) |
+| Windows x64 | 1.3 / 31 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.3-build31.zip) |
 
 Der macOS-Build 31 enthält die Korrekturen für Ergebnisbestätigung je Fechter
 und die KO-Übertragung anhand der tatsächlichen Touch-Formularfelder.
 Android-Build 12 entspricht dem aktuellen Android-Quellstand.
-Der Windows-Build 27 enthält diese neueren Korrekturen noch nicht;
-ein neuer Windows-Build liegt nicht vor. Ältere Pakete bleiben zur Nachvollziehbarkeit erhalten.
+Der Windows-Build 31 enthält ebenfalls den aktuellen Desktop-Quellstand mit
+diesen Ergebnis- und KO-Korrekturen. Ältere Pakete bleiben zur
+Nachvollziehbarkeit erhalten.
 
 ## Installation
 
@@ -31,7 +32,7 @@ Android: Die APK als Update installieren, damit lokale App-Daten erhalten bleibe
 Die AAB ist für den Upload in die Play Console bestimmt und wird nicht direkt installiert.
 iOS wird über Xcode beziehungsweise TestFlight verteilt; hier liegt kein IPA-Paket.
 
-Windows: Das ältere ZIP entpacken und `Fencingworldwide Referees.exe` starten.
+Windows: ZIP entpacken und `Fencingworldwide Referees.exe` starten.
 
 ## Download und Prüfsummen
 
