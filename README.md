@@ -22,9 +22,9 @@ Android-Build 12 entspricht dem aktuellen Android-Quellstand.
 Der Windows-Build 31 enthält ebenfalls den aktuellen Desktop-Quellstand mit
 diesen Ergebnis- und KO-Korrekturen. Ältere Pakete bleiben zur
 Nachvollziehbarkeit erhalten.
-Der Windows-Build 32 ergänzt getrennte Hinweise und Logeinträge für abgelehnte
-Anmeldungen und Verbindungsfehler. Die Login-Logdatei liegt unter
-`%APPDATA%\Ophardt Referees\ophardt-referees.log`.
+Der Windows-Build 32 enthält dauerhafte Laufzeitlogs und detaillierte
+Push-Zustellungsdiagnosen. Das GUI-Log liegt unter
+`%LOCALAPPDATA%\Ophardt Referees\Logs\ophardt-referees-gui.log`.
 
 ## Installation
 
