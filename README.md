@@ -8,13 +8,15 @@ Auf der obersten Ebene stehen nur die neuesten Pakete je Plattform.
 | Plattform | Version / Build | Download |
 |---|---|---|
 | macOS Apple Silicon | 1.4 / 34 | [ZIP](Fencingworldwide-Referees-macOS-arm64-v1.4-build34.zip) |
-| Windows x64 | 1.4 / 34 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.4-build34.zip) |
+| Windows x64 | 1.4 / 35 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.4-build35.zip) |
 | Android | 1.1 / 16 | [APK](Fencingworldwide-Referees-Android-v1.1-build16.apk), [Play-Store-Bundle](Fencingworldwide-Referees-Android-v1.1-build16.aab) |
 
 Desktop Build 34 ergänzt die Check-in-Rückmeldung in der Smartphone-App,
 die genaue KO-Stufe, alle eingeteilten Kampfrichter und die Übertragung
 begründeter Ergebniskorrekturen. Für Rundengefechte bestätigt der Kampfrichter
 zuerst alle Fechter über die Anwesenheitsliste.
+Windows Build 35 verpackt den aktuellen Desktop-Quellstand als portable
+Einzeldatei; der eingebettete Selbsttest ist erfolgreich.
 
 Android Build 16 und iOS Build 29 enthalten diese Funktionen, den Datenschutz-Link
 und neun Sprachen: Deutsch, Englisch, Französisch, Portugiesisch, Italienisch,
