@@ -7,17 +7,22 @@ Auf der obersten Ebene stehen nur die neuesten Pakete je Plattform.
 
 | Plattform | Version / Build | Download |
 |---|---|---|
-| macOS Apple Silicon | 1.4 / 33 | [ZIP](Fencingworldwide-Referees-macOS-arm64-v1.4-build33.zip) |
-| Windows x64 | 1.4 / 33 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.4-build33.zip) |
-| Android | 1.1 / 13 | [APK](Fencingworldwide-Referees-Android-v1.1-build13.apk), [Play-Store-Bundle](Fencingworldwide-Referees-Android-v1.1-build13.aab) |
+| macOS Apple Silicon | 1.4 / 34 | [ZIP](Fencingworldwide-Referees-macOS-arm64-v1.4-build34.zip) |
+| Windows x64 | 1.4 / 34 | [ZIP](Fencingworldwide-Referees-Windows-x64-v1.4-build34.zip) |
+| Android | 1.1 / 16 | [APK](Fencingworldwide-Referees-Android-v1.1-build16.apk), [Play-Store-Bundle](Fencingworldwide-Referees-Android-v1.1-build16.aab) |
 
-Die Desktop-Version 1.4 ergänzt den App-Zugang per QR für Kampfrichtende ohne
-Ophardt-Konto. Anmeldecodes sind eine Stunde gültig und einmal verwendbar.
-Die Python-App kann einzelne Codes und mehrere markierte Personen auf A4
-zum Drucken ausgeben, jeweils mit dem Namen unter dem Code und Ablaufzeit.
-Android 1.1 und iOS 1.6 (Build 26) können diese Anmeldecodes scannen und
-anschließend die normalen Gefechts-, Push- und Ergebnisfunktionen verwenden.
-Die neue Serverversion muss für die QR-Anmeldung ebenfalls bereitgestellt sein.
+Desktop Build 34 ergänzt die Check-in-Rückmeldung in der Smartphone-App,
+die genaue KO-Stufe, alle eingeteilten Kampfrichter und die Übertragung
+begründeter Ergebniskorrekturen. Für Rundengefechte bestätigt der Kampfrichter
+zuerst alle Fechter über die Anwesenheitsliste.
+
+Android Build 16 und iOS Build 29 enthalten diese Funktionen, den Datenschutz-Link
+und neun Sprachen: Deutsch, Englisch, Französisch, Portugiesisch, Italienisch,
+Spanisch, Schwedisch, Dänisch und Norwegisch (Bokmål). Die Geräte-/App-Sprache
+entscheidet; Englisch ist die Ersatzsprache. Der Cloud-Dienst ist aktualisiert.
+
+Der App-Zugang per QR bleibt enthalten: Anmeldecodes sind eine Stunde gültig
+und einmal verwendbar. Ein Ophardt-Konto ist für diese Anmeldung nicht nötig.
 
 ## Installation
 
@@ -33,14 +38,14 @@ Windows-Runner gebaut und mit dem eingebetteten Selbsttest geprüft.
 Android: APK als Update installieren, damit lokale App-Daten erhalten bleiben.
 Die signierte AAB ist für die Play Console und wird nicht direkt installiert.
 iOS wird weiterhin über Xcode beziehungsweise TestFlight verteilt;
-hier liegt kein IPA-Paket.
+hier liegt kein IPA-Paket. Der aktuelle iOS-Quellcode hat Build 29.
 
 ## Quellcode und Builds
 
 - [Desktop und Push-Server](https://github.com/bebeckmann/fencingworldwide-referees)
 - [Android](https://github.com/bebeckmann/fencingworldwide-referees-android)
 - [iOS](https://github.com/bebeckmann/fencingworldwide-referees-ios)
-- [Windows-Build](https://github.com/bebeckmann/fencingworldwide-referees/actions/runs/39644695314)
+- [Windows-Build](https://github.com/bebeckmann/fencingworldwide-referees/actions/runs/40835588867)
 
 Das Desktop-Repository enthält `scripts/publish_dist.py`. Dieses Skript
 übernimmt neue Pakete, verschiebt ältere Versionen nach `Archive/<Plattform>/`
